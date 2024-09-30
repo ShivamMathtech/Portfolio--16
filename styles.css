@@ -1,0 +1,112 @@
+body {
+  background-color: #0e0e0e;
+}
+.home-page {
+  height: 100vh;
+  background-color: #212032;
+}
+header {
+  height: 15vh;
+}
+.nav-link {
+  color: white;
+}
+.bt-1 {
+  border-radius: 20px;
+  background-color: #ff6141;
+  width: 100px;
+}
+.content-box-1 {
+  height: calc(100vh - 15vh);
+}
+.img-box-1 {
+  height: 50vh;
+}
+.text-box-1 {
+  height: 50vh;
+}
+.soc {
+  display: block;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  background-color: #ff6141;
+  margin: 4px;
+}
+.resume {
+  height: 100vh;
+  background-color: #222337;
+}
+
+.i-box {
+  height: 100px;
+  width: 120px;
+  background-color: #26264b;
+  border-radius: 4px;
+  margin: 7px;
+}
+.active-box {
+  background-color: #ff6141;
+}
+.img-box-3 {
+  height: 50vh;
+}
+.services {
+  height: 100vh;
+  background-color: #222337;
+}
+.ser-text-1 {
+  height: 30vh;
+  background-color: #252549;
+}
+.portfolio {
+  height: 70vh;
+  background-color: #222337;
+}
+.project-img {
+  height: 40vh;
+  background-color: aqua;
+  background-image: url("project.jfif");
+  background-size: cover;
+}
+.skills {
+  height: 100vh;
+  background-color: #222337;
+}
+.skill-box {
+  height: 20vh;
+  background-color: #26264b;
+  background-image: url("css.png");
+  background-size: contain;
+}
+.css {
+  background-image: url("css.png");
+  background-size: contain;
+}
+.plan {
+  height: 100vh;
+  background-color: #222337;
+}
+.pricing-box {
+  height: 60vh;
+  background-color: #252549;
+  border-radius: 4px;
+}
+
+.pricing-box-2 {
+  height: 64vh;
+  background-color: #fe6347;
+  border-radius: 4px;
+}
+.menu-box {
+  width: 60px;
+  height: 60px;
+  background-color: #fe6347;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.faq {
+  height: 100vh;
+  background-color: #222337;
+}
