@@ -118,3 +118,115 @@ header {
   height: 100vh;
   background-color: #222337;
 }
+.testimonial-container {
+  width: 50%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #252549;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.testimonial-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.testimonial.active {
+  display: block;
+  opacity: 1;
+}
+
+.testimonial p {
+  font-size: 1.2em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.testimonial h3 {
+  color: white;
+  font-style: italic;
+}
+
+.navigation {
+  margin-top: 20px;
+}
+
+.navigation button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navigation button:hover {
+  background-color: #0056b3;
+}
+.contact {
+  height: 100vh;
+  background-color: #222337;
+}
+.mail-box {
+  background-image: url("mail.png");
+  background-size: contain;
+  background-position: center;
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+input[type="email"] {
+  background-color: #23254b;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+input[type="password"] {
+  background-color: #23254b;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+input[type="text"] {
+  background-color: #23254b;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+input[type="file"] {
+  background-color: #23254b;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+
+input[type="email"]::placeholder {
+  color: white;
+  opacity: 1;
+}
+input[type="password"]::placeholder {
+  color: white;
+  opacity: 1;
+}
+input[type="text"]::placeholder {
+  color: white;
+  opacity: 1;
+}
+#floatingTextarea2::placeholder {
+  color: white;
+  opacity: 1;
+}
+.footer {
+  height: 20vh;
+  background-color: #222337;
+}
